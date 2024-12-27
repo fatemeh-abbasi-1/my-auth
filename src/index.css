@@ -1,0 +1,119 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+}
+body {
+  background-image: linear-gradient(
+    58.2deg,
+    rgba(40, 91, 212, 0.73) -3%,
+    rgba(171, 53, 163, 0.45) 49.3%,
+    rgba(255, 204, 112, 0.37) 97.7%
+  );
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+/* Register */
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 1rem;
+}
+section {
+  width: 100%;
+  max-width: 28rem;
+  background-color: #fff6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  min-height: 25rem;
+  border-radius: 0.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  gap: 1rem;
+}
+input,
+button {
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+}
+button {
+  background-color: rgb(248, 192, 250);
+  cursor: pointer;
+}
+.container-input-help {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.border-green {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid rgb(61, 223, 61);
+}
+.show-err {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid red;
+}
+
+.show {
+  font-size: 0.7rem;
+  background-color: #2b2a2a;
+  color: rgb(251, 249, 249);
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+}
+.hide {
+  display: none;
+}
+/* Home */
+.home {
+  margin-top: -6rem;
+  margin-bottom: 1rem;
+}
+/* login */
+.help-text {
+  margin-bottom: 0.5rem;
+}
+
+/* logout */
+.title-logout {
+  margin-left: 1rem;
+}
+.logout {
+  width: 100%;
+  max-width: 28rem;
+  background-image: linear-gradient(
+    58.2deg,
+    rgba(40, 91, 212, 0.73) -3%,
+    rgba(171, 53, 163, 0.45) 49.3%,
+    rgba(255, 204, 112, 0.37) 97.7%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
