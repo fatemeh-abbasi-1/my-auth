@@ -8,6 +8,7 @@ import { useAuth } from "./context/AuthContext";
 
 function App() {
   const { userId } = useAuth();
+  
   return (
     <div className="App">
       <Routes>
