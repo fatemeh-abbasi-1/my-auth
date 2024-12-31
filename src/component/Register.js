@@ -18,6 +18,7 @@ const Register = () => {
   const [pwdFocus, setPwdFocus] = useState(false);
   const [confirmFocus, setConfirmFocus] = useState(false);
   const [errRegister, setErrRegister] = useState(false);
+
   const navigate = useNavigate();
 
   useEffect(() => {

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ShowMessage = () => {
   return (
     <>
-      <h1 style={{ marginBottom: "1rem" }}>You have logged out!</h1>
+      <h1 style={{ marginBottom: "1rem" ,color:'white'}}>You have logged out!</h1>
       <Link to={"/register"} style={{ marginBottom: "1rem" }}>
         Go to register
       </Link>
